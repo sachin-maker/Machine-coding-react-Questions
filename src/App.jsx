@@ -2,6 +2,8 @@ import Accordian from "./Components/01_Accordian/Accordian"
 import StarRating from "./Components/02_Star_Rating/StarRating"
 import ImageSlider from "./Components/03_ImageSlider/ImageSlider"
 import DarkTheme from "./Components/04_DarkTheme/DarkTheme"
+import CustomScroll from "./Components/05_CustomScroll/CustomScroll"
+import TabTest from "./Components/06_TabTest/TabTest"
 
 function App() {
 
@@ -18,8 +20,15 @@ function App() {
    {/* <ImageSlider/> */}
 
    {/* Task 4 */}
-   <DarkTheme/>
+   {/* <DarkTheme/> */}
+
+   {/* Task 5 */}
+   {/* <CustomScroll url={"https://dummyjson.com/products?limit=100"}/> */}
+
+   {/* Task 6 */}
+   {/* <TabTest/> */}
        
+
     </>
   )
 }
