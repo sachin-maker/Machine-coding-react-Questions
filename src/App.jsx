@@ -7,8 +7,8 @@ import TabTest from "./Components/06_TabTest/TabTest"
 import ModalPopup from "./Components/08_ModalPopUp/ModalPopup"
 import GithubProfileFinder from "./Components/09_GithubProfileFinder/GithubProfileFinder"
 import UseWindowResizeTest from "./Components/10_WindowResize/UseWindowResizeTest"
-import DigitalClock from "./Components_2/DigitalClock/DigitalClock"
-import ScrollTopToBottom from "./Components_2/ScrollTopToBottom/ScrollTopToBottom"
+import DigitalClock from "./Components_2/01_DigitalClock/DigitalClock"
+import ScrollTopToBottom from "./Components_2/02_ScrollTopToBottom/ScrollTopToBottom"
 
 function App() {
 
