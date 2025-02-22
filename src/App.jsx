@@ -13,6 +13,9 @@ import CountdownTimerTest from "./Components_2/03_CountdownTimer/CountdownTimerT
 import RandomQuoteGenerator from "./Components_2/05_RandomQuoteGenerator/RandomQuoteGenerator"
 import QRCodeGenerator from "./Components_2/06_QRCodeGenerator/QRCodeGenerator"
 import TooltipTest from "./Components_2/07_Tooltip/TooltipTest"
+import CurrencyConverter from "./Components_2/08_CurrencyConverter/CurrencyConverter"
+import MusicPlayer from "./Components_2/09_MusicPlayer/MusicPlayer"
+import ButtonRippleEffect from "./Components_2/10_ButtonRippleEffect/ButtonRippleEffect"
 
 function App() {
 
@@ -65,7 +68,16 @@ function App() {
    {/* <QRCodeGenerator/> */}
 
    {/* Task 17 */}
-   <TooltipTest/>
+   {/* <TooltipTest/> */}
+
+   {/* Task 18 */}
+   {/* <CurrencyConverter/> */}
+
+   {/* Task 19 */}
+   {/* <MusicPlayer/> */}
+
+   {/* Task 20 */}
+   {/* <ButtonRippleEffect/> */}
        
 
     </>
