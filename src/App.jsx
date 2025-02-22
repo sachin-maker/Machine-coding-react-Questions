@@ -4,6 +4,7 @@ import ImageSlider from "./Components/03_ImageSlider/ImageSlider"
 import DarkTheme from "./Components/04_DarkTheme/DarkTheme"
 import CustomScroll from "./Components/05_CustomScroll/CustomScroll"
 import TabTest from "./Components/06_TabTest/TabTest"
+import ModalPopup from "./Components/08_ModalPopUp/ModalPopup"
 
 function App() {
 
@@ -27,6 +28,10 @@ function App() {
 
    {/* Task 6 */}
    {/* <TabTest/> */}
+
+
+   {/* Task 8 */}
+   {/* <ModalPopup/> */}
        
 
     </>
