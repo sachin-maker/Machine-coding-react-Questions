@@ -11,6 +11,7 @@ import DigitalClock from "./Components_2/01_DigitalClock/DigitalClock"
 import ScrollTopToBottom from "./Components_2/02_ScrollTopToBottom/ScrollTopToBottom"
 import CountdownTimerTest from "./Components_2/03_CountdownTimer/CountdownTimerTest"
 import RandomQuoteGenerator from "./Components_2/05_RandomQuoteGenerator/RandomQuoteGenerator"
+import QRCodeGenerator from "./Components_2/06_QRCodeGenerator/QRCodeGenerator"
 
 function App() {
 
@@ -57,7 +58,10 @@ function App() {
    {/* <CountdownTimerTest/> */}
 
    {/* Task 15 */}
-   <RandomQuoteGenerator/>
+   {/* <RandomQuoteGenerator/> */}
+
+   {/* Task 16 */}
+   {/* <QRCodeGenerator/> */}
        
 
     </>
