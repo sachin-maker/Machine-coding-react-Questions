@@ -5,6 +5,8 @@ import DarkTheme from "./Components/04_DarkTheme/DarkTheme"
 import CustomScroll from "./Components/05_CustomScroll/CustomScroll"
 import TabTest from "./Components/06_TabTest/TabTest"
 import ModalPopup from "./Components/08_ModalPopUp/ModalPopup"
+import GithubProfileFinder from "./Components/09_GithubProfileFinder/GithubProfileFinder"
+import UseWindowResizeTest from "./Components/10_WindowResize/UseWindowResizeTest"
 
 function App() {
 
@@ -32,6 +34,12 @@ function App() {
 
    {/* Task 8 */}
    {/* <ModalPopup/> */}
+
+   {/* Task 9 */}
+   {/* <GithubProfileFinder/> */}
+
+   {/* Task 10 */}
+   {/* <UseWindowResizeTest/> */}
        
 
     </>
