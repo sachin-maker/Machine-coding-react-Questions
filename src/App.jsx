@@ -7,6 +7,8 @@ import TabTest from "./Components/06_TabTest/TabTest"
 import ModalPopup from "./Components/08_ModalPopUp/ModalPopup"
 import GithubProfileFinder from "./Components/09_GithubProfileFinder/GithubProfileFinder"
 import UseWindowResizeTest from "./Components/10_WindowResize/UseWindowResizeTest"
+import DigitalClock from "./Components_2/DigitalClock/DigitalClock"
+import ScrollTopToBottom from "./Components_2/ScrollTopToBottom/ScrollTopToBottom"
 
 function App() {
 
@@ -40,6 +42,14 @@ function App() {
 
    {/* Task 10 */}
    {/* <UseWindowResizeTest/> */}
+
+   {/* ========================================== */}
+
+   {/* Task 11 */}
+   {/* <ScrollTopToBottom/> */}
+
+   {/* Task 12 */}
+   <DigitalClock/>
        
 
     </>

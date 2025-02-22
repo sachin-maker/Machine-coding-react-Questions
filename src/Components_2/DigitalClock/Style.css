@@ -1,0 +1,17 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto ;
+}
+
+.time{
+    font-size: 30px;
+    color: #61dafb;
+}
+
+.date {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #aa1f09;;
+}
