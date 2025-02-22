@@ -9,6 +9,7 @@ import GithubProfileFinder from "./Components/09_GithubProfileFinder/GithubProfi
 import UseWindowResizeTest from "./Components/10_WindowResize/UseWindowResizeTest"
 import DigitalClock from "./Components_2/01_DigitalClock/DigitalClock"
 import ScrollTopToBottom from "./Components_2/02_ScrollTopToBottom/ScrollTopToBottom"
+import CountdownTimerTest from "./Components_2/03_CountdownTimer/CountdownTimerTest"
 
 function App() {
 
@@ -49,7 +50,10 @@ function App() {
    {/* <ScrollTopToBottom/> */}
 
    {/* Task 12 */}
-   <DigitalClock/>
+   {/* <DigitalClock/> */}
+
+   {/* Task 13 */}
+   {/* <CountdownTimerTest/> */}
        
 
     </>
