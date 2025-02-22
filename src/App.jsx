@@ -10,6 +10,7 @@ import UseWindowResizeTest from "./Components/10_WindowResize/UseWindowResizeTes
 import DigitalClock from "./Components_2/01_DigitalClock/DigitalClock"
 import ScrollTopToBottom from "./Components_2/02_ScrollTopToBottom/ScrollTopToBottom"
 import CountdownTimerTest from "./Components_2/03_CountdownTimer/CountdownTimerTest"
+import RandomQuoteGenerator from "./Components_2/05_RandomQuoteGenerator/RandomQuoteGenerator"
 
 function App() {
 
@@ -54,6 +55,9 @@ function App() {
 
    {/* Task 13 */}
    {/* <CountdownTimerTest/> */}
+
+   {/* Task 15 */}
+   <RandomQuoteGenerator/>
        
 
     </>
