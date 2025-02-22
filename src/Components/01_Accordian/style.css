@@ -1,0 +1,41 @@
+.Accordian {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.AccordianItem {
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+.AccordianItem.open {
+    background-color: #e0f7fa;  /* Light background when open */
+}
+
+.title {
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-bottom: 2px solid #ccc;
+}
+
+.title:hover {
+    background-color: #c0c0c0;
+}
+
+.title-body {
+    padding: 10px;
+    font-size: medium;
+    background-color: #f0f0f0;
+}
