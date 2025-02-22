@@ -1,0 +1,45 @@
+.new-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.tooltip-container {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 100%; /* Positions above the element */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Ensure it's centered */
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    min-width: 200px;
+    text-align: center;
+    white-space: nowrap;
+    
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s;
+
+    
+}
+
+/* Show tooltip on hover */
+.tooltip-container:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}

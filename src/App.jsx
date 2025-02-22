@@ -12,6 +12,7 @@ import ScrollTopToBottom from "./Components_2/02_ScrollTopToBottom/ScrollTopToBo
 import CountdownTimerTest from "./Components_2/03_CountdownTimer/CountdownTimerTest"
 import RandomQuoteGenerator from "./Components_2/05_RandomQuoteGenerator/RandomQuoteGenerator"
 import QRCodeGenerator from "./Components_2/06_QRCodeGenerator/QRCodeGenerator"
+import TooltipTest from "./Components_2/07_Tooltip/TooltipTest"
 
 function App() {
 
@@ -62,6 +63,9 @@ function App() {
 
    {/* Task 16 */}
    {/* <QRCodeGenerator/> */}
+
+   {/* Task 17 */}
+   <TooltipTest/>
        
 
     </>
