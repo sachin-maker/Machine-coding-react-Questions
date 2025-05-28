@@ -16,6 +16,12 @@ import TooltipTest from "./Components_2/07_Tooltip/TooltipTest"
 import CurrencyConverter from "./Components_2/08_CurrencyConverter/CurrencyConverter"
 import MusicPlayer from "./Components_2/09_MusicPlayer/MusicPlayer"
 import ButtonRippleEffect from "./Components_2/10_ButtonRippleEffect/ButtonRippleEffect"
+import LoadMoreProducts from "./Components_3/01_LoadMore/LoadMoreProducts"
+import FolderStructure from "./Components_3/02_FolderStructure.jsx"
+import SearchAutoComplete from "./Components_3/03_SearchAutoComplete/SearchAutoComplete.jsx"
+import MultiSearchInput from "./Components_3/04_MultiSearchInput/MultiSearchInput.jsx"
+import TicTacToe from "./Components_3/05_TicTacToe/TicTacToe.jsx"
+import StepProgressBarTest from "./Components_3/06_StepProgressBar/StepProgressBarTest.jsx"
 
 function App() {
 
@@ -78,6 +84,28 @@ function App() {
 
    {/* Task 20 */}
    {/* <ButtonRippleEffect/> */}
+
+   {/* Task 21 */}
+   {/* <LoadMoreProducts/> */}
+
+   {/* Task 22 */}
+   {/* <FolderStructure/> */}
+
+   {/* Task 23 */}
+   {/* <SearchAutoComplete/> */}
+
+   {/* Task 24 */}
+   {/* <MultiSearchInput/> */}
+
+   {/* Task 25 */}
+   {/* <TicTacToe/> */}
+
+   <StepProgressBarTest/>
+
+
+   
+
+   
        
 
     </>

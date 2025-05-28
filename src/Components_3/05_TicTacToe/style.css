@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+}
+
+.game {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.status {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.board {
+  display: grid;
+  justify-content: center;
+  gap: 5px;
+  margin: 0 auto;
+  width: min(90vw, 90vh); /* Responsive square board */
+  aspect-ratio: 1;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cell:hover {
+  background-color: #f0f0f0;
+}
+
+.reset-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
