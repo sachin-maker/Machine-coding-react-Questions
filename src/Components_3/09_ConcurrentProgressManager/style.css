@@ -1,0 +1,26 @@
+.multi-container {
+  padding: 20px;
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: auto;
+}
+
+.progress-wrapper {
+  width: 100%;
+  height: 20px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+  background: #f0f0f0;
+}
+
+.progress-inner {
+  height: 100%;
+  background-color: pink;
+  transition: width 0.05s linear;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}

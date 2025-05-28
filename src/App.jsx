@@ -22,6 +22,13 @@ import SearchAutoComplete from "./Components_3/03_SearchAutoComplete/SearchAutoC
 import MultiSearchInput from "./Components_3/04_MultiSearchInput/MultiSearchInput.jsx"
 import TicTacToe from "./Components_3/05_TicTacToe/TicTacToe.jsx"
 import StepProgressBarTest from "./Components_3/06_StepProgressBar/StepProgressBarTest.jsx"
+import InputProgressBar from "./Components_3/07_InputProgressBar/InputProgressbar.jsx"
+import AnimatedProgressBar from "./Components_3/08_AnimatedProgressBar/AnimatedProgressBar.jsx"
+import ConcurrentProgressManager from "./Components_3/09_ConcurrentProgressManager/ConcurrentProgressManager.jsx"
+import FormWithoutYup from "./Components_4/01_FormValidation/FormWithoutYup.jsx"
+import FormWithYup from "./Components_4/01_FormValidation/FormWithYup.jsx"
+import FileUpload from "./Components_4/02_FileUpload/FileUpload.jsx"
+import NestedComments from "./Components_4/03_NestedComments/NestedComments.jsx"
 
 function App() {
 
@@ -99,8 +106,26 @@ function App() {
 
    {/* Task 25 */}
    {/* <TicTacToe/> */}
+   
+   {/* Task 26 */}
+   {/* <StepProgressBarTest/> */}
 
-   <StepProgressBarTest/>
+   {/* Task 27 */}
+   {/* <InputProgressBar/> */}
+   
+    {/* Task 28 */}
+   {/* <AnimatedProgressBar/> */}
+
+   {/* Task 29 */}
+   {/* <ConcurrentProgressManager/> */}
+
+   {/* Task 31 */}
+   {/* <FormWithoutYup/> */}
+   {/* <FormWithYup/> */}
+
+   {/* <FileUpload/> */}
+
+   <NestedComments/>
 
 
    
