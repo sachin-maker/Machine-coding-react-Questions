@@ -29,6 +29,7 @@ import FormWithoutYup from "./Components_4/01_FormValidation/FormWithoutYup.jsx"
 import FormWithYup from "./Components_4/01_FormValidation/FormWithYup.jsx"
 import FileUpload from "./Components_4/02_FileUpload/FileUpload.jsx"
 import NestedComments from "./Components_4/03_NestedComments/NestedComments.jsx"
+import GridLight from "./Components_4/04_GridLight/Gridlight.jsx"
 
 function App() {
 
@@ -123,9 +124,19 @@ function App() {
    {/* <FormWithoutYup/> */}
    {/* <FormWithYup/> */}
 
+   {/* Task 32 */}
    {/* <FileUpload/> */}
 
-   <NestedComments/>
+   {/* Task 33 */}
+   {/* <NestedComments/> */}
+
+   {/* task 34 */}
+   {/* Pagination with add cart and redux */}
+   {/* https://github.com/sachin-maker/shopping-app */}
+
+   {/* task 35 */}
+   <GridLight/>
+
 
 
    

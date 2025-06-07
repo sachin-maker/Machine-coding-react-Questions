@@ -1,0 +1,49 @@
+/* Grid wrapper */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  gap: 10px;
+}
+
+/* Base cell style */
+.cell {
+  width: 86px;
+  height: 86px;
+  border: 2px solid #ff0000;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  transition: background-color 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+
+/* On hover (if not disabled) */
+.cell:not(:disabled):hover {
+  border-color: #ff0000;
+  background-color: #e0f0ff;
+}
+
+/* Activated cell */
+.cell-activated {
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+/* Disabled cells look dimmed */
+.cell:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Empty placeholder cell (used for layout) */
+.cell.placeholder {
+  visibility: hidden;
+  width: 86px;
+  height: 86px;
+}
