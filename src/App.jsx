@@ -30,6 +30,9 @@ import FormWithYup from "./Components_4/01_FormValidation/FormWithYup.jsx"
 import FileUpload from "./Components_4/02_FileUpload/FileUpload.jsx"
 import NestedComments from "./Components_4/03_NestedComments/NestedComments.jsx"
 import GridLight from "./Components_4/04_GridLight/Gridlight.jsx"
+import Liked from "./Components_4/05_Liked/Liked.jsx"
+import JobPostingApp from "./Components_4/06_JobPostingApp/JobPostingApp.jsx"
+import PhoneOTPForm from "./Components_4/07_PhoneOTPForm/PhoneOTPForm.jsx"
 
 function App() {
 
@@ -135,7 +138,20 @@ function App() {
    {/* https://github.com/sachin-maker/shopping-app */}
 
    {/* task 35 */}
-   <GridLight/>
+   {/* <GridLight/> */}
+
+{/* Task 36 */}
+{/* <Liked/> */}
+
+{/* Task 37  */}
+{/* <JobPostingApp/> */}
+
+{/* Task 38 */}
+{/* <PhoneOTPForm/> */}
+
+
+
+
 
 
 
