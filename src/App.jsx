@@ -33,6 +33,8 @@ import GridLight from "./Components_4/04_GridLight/Gridlight.jsx"
 import Liked from "./Components_4/05_Liked/Liked.jsx"
 import JobPostingApp from "./Components_4/06_JobPostingApp/JobPostingApp.jsx"
 import PhoneOTPForm from "./Components_4/07_PhoneOTPForm/PhoneOTPForm.jsx"
+import QuizApp from "./Components_4/08_QuizApp/QuizApp.jsx"
+import HomeQuizeApp from "./Components_4/09_HomeQuizeApp/HomeQuizeApp.jsx"
 
 function App() {
 
@@ -148,6 +150,10 @@ function App() {
 
 {/* Task 38 */}
 {/* <PhoneOTPForm/> */}
+
+{/* <QuizApp/> */}
+
+<HomeQuizeApp/>
 
 
 
