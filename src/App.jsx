@@ -35,6 +35,9 @@ import JobPostingApp from "./Components_4/06_JobPostingApp/JobPostingApp.jsx"
 import PhoneOTPForm from "./Components_4/07_PhoneOTPForm/PhoneOTPForm.jsx"
 import QuizApp from "./Components_4/08_QuizApp/QuizApp.jsx"
 import HomeQuizeApp from "./Components_4/09_HomeQuizeApp/HomeQuizeApp.jsx"
+import SelectableGridApp from "./Components_4/10_SelectableGridApp/SelectableGridApp.jsx"
+import DragAndDropNotes from "./Components_5/DragAndDropNotes/index.jsx"
+import EmiCalculator from "./Components_5/EMI Calculator/index.jsx"
 
 function App() {
 
@@ -153,7 +156,13 @@ function App() {
 
 {/* <QuizApp/> */}
 
-<HomeQuizeApp/>
+{/* <HomeQuizeApp/> */}
+
+{/* <SelectableGridApp/> */}
+
+{/* <DragAndDropNotes/> */}
+
+<EmiCalculator/>
 
 
 
