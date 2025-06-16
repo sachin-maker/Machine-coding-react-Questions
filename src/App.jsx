@@ -40,6 +40,8 @@ import DragAndDropNotes from "./Components_5/01_DragAndDropNotes/index.jsx"
 import EmiCalculator from "./Components_5/02_EMICalculator/index.jsx"
 import PasswordGenerator from "./Components_5/03_PasswordGenerator/PasswordGenerator.jsx"
 import MemoryGame from "./Components_5/04_MemoryGame/MemoryGame.jsx"
+import ToastComponent from "./Components_5/05_ToastComponent/ToastComponent.jsx"
+import InfiniteScroll from "./Components_5/06_InfiniteScrolling/InfiniteScroll.jsx"
 
 
 function App() {
@@ -170,7 +172,13 @@ function App() {
 
 {/* <PasswordGenerator/> */}
 
-<MemoryGame/>
+{/* <MemoryGame/> */}
+
+{/* <ToastComponent/> */}
+
+<InfiniteScroll/>
+
+
 
 
 
