@@ -36,8 +36,11 @@ import PhoneOTPForm from "./Components_4/07_PhoneOTPForm/PhoneOTPForm.jsx"
 import QuizApp from "./Components_4/08_QuizApp/QuizApp.jsx"
 import HomeQuizeApp from "./Components_4/09_HomeQuizeApp/HomeQuizeApp.jsx"
 import SelectableGridApp from "./Components_4/10_SelectableGridApp/SelectableGridApp.jsx"
-import DragAndDropNotes from "./Components_5/DragAndDropNotes/index.jsx"
-import EmiCalculator from "./Components_5/EMI Calculator/index.jsx"
+import DragAndDropNotes from "./Components_5/01_DragAndDropNotes/index.jsx"
+import EmiCalculator from "./Components_5/02_EMICalculator/index.jsx"
+import PasswordGenerator from "./Components_5/03_PasswordGenerator/PasswordGenerator.jsx"
+import MemoryGame from "./Components_5/04_MemoryGame/MemoryGame.jsx"
+
 
 function App() {
 
@@ -139,8 +142,9 @@ function App() {
    {/* <NestedComments/> */}
 
    {/* task 34 */}
-   {/* Pagination with add cart and redux */}
+   {/* Pagination with add cart and redux also Breadcrumbs features*/}
    {/* https://github.com/sachin-maker/shopping-app */}
+   {/* C:\VS Code\React\Cart */}
 
    {/* task 35 */}
    {/* <GridLight/> */}
@@ -162,9 +166,11 @@ function App() {
 
 {/* <DragAndDropNotes/> */}
 
-<EmiCalculator/>
+{/* <EmiCalculator/> */}
 
+{/* <PasswordGenerator/> */}
 
+<MemoryGame/>
 
 
 

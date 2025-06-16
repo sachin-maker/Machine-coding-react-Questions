@@ -1,0 +1,92 @@
+.memory-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f3f3f3;
+  font-family: sans-serif;
+}
+
+.game-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.grid-size-input {
+  margin-bottom: 1rem;
+}
+
+.grid-size-input label {
+  margin-right: 0.5rem;
+}
+
+.grid-size-input input {
+  padding: 5px 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  width: 60px;
+}
+
+.game-board {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 1rem;
+  width: min(100%, 90vw);
+  max-width: 600px;
+}
+
+.card {
+  aspect-ratio: 1 / 1;
+  background-color: #d1d5db;
+  color: #9ca3af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.card.flipped {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.card.solved {
+  background-color: #10b981;
+  color: white;
+}
+
+.won-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #10b981;
+  margin-top: 1rem;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.reset-button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #059669;
+}
